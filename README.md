@@ -34,14 +34,14 @@ In short:
 
 ## ⚙️ Features
 
-- 🔐 **Deterministic password generation** using SHA-256 encryption
-- 💾 **Zero storage** — passwords are generated on the fly
-- 🖥️ **Windows GUI app** (.exe ready)
-- 🤖 **Android GUI app** (in progress)
-- 🧰 **Console version** for advanced users or integration
-- 📋 **Clipboard copy** feature in the GUI
-- 🧪 **Masked/unmasked password display** for privacy
-- 🆕 **Versioned releases** (example: `23-2` means 23-character password, version 2)
+- **Deterministic password generation** using SHA-256 encryption
+- **Zero storage** — passwords are generated on the fly
+- **Windows GUI app** (.exe ready)
+- **Android GUI app** (in progress)
+- **Console version** for advanced users or integration
+- **Clipboard copy** feature in the GUI
+- **Masked/unmasked password display** for privacy
+- **Versioned releases** (example: `23-2` means 23-character password, version 2)
 
 ---
 
@@ -49,18 +49,18 @@ In short:
 
 ```
 📂 password-generator/ 
-├── 🧠 main.py → Console version (Python) 
+├── main.py → Console version (Python) 
 │ 
 ├── 📂 windows/ 
-│    ├── 🪟 WindowsPassWordGenerator.py → GUI app (Tkinter) 
-│    └── 🧪 generateur_mdp23-2.exe → Windows executable 
+│    ├── WindowsPassWordGenerator.py → GUI app (Tkinter) 
+│    └── generateur_mdp23-2.exe → Windows executable 
 │ 
 ├── 📂 android/ 
-│    └── 🤖 generateur_mdp_android.py → Android GUI (in development) 
+│    └── generateur_mdp_android.py → Android GUI (in development) 
 │ 
 ├── 📂 logo/ 
-│    ├── 🖼️ logo.png → App icon 
-│    └── 🧊 logo.ico → Executable icon 
+│    ├── logo.png → App icon 
+│    └── logo.ico → Executable icon 
 │ 
 └── 📄 README.md (You're here!)
 ```
@@ -69,7 +69,7 @@ In short:
 
 ## 🚀 Quick Start
 
-### ▶️ 1. Console Version
+### 1. Console Version
 
 Launch it from your terminal:
 
@@ -86,7 +86,7 @@ You'll be asked for:
 
 ---
 
-### 🪟 2. Windows App (GUI)
+### 2. Windows App (GUI)
 
 Just launch:
 
@@ -102,7 +102,7 @@ Features:
 
 ---
 
-### 🤖 3. Android App
+### 3. Android App
 
 A mobile version is under construction!
 Built with Kivy to mirror the Windows experience.
