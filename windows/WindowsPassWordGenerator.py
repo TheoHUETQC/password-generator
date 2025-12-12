@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import hashlib
 
-MDP_SIZE = 23 # taille du mot de passe final que l'on souhaite
+MDP_SIZE = 23 # taille du mot de passe final que l'on souhaite par default
 CAR = list('!@#$%^&*()1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz') # liste de caractère qui composera le mot de passe generé
 N = len(CAR) # len = 72 
 error = [] # liste qui stock les erreurs
